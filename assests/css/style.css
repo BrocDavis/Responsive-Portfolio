@@ -282,6 +282,10 @@ article {
 .static{
     position: static;
 }
+.navbar{
+    
+}
+
 }
 /*768px size change*/
 @media only screen and (max-width: 768px){
@@ -290,5 +294,47 @@ article {
 
 /*600px size change*/
 @media only screen and (max-width: 600px){
-    
+
+.navbar{
+    text-align: center;
+    float: none;
+}
+
+header {
+    font: center;
+    width: 100%;
+    height: 160px;
+    border-bottom: 2px solid #cccccc;
+    /* margin: 0 auto; */
+}
+
+hr {
+    border-top: 3px solid #dddddd;
+    width: 95%;
+    margin: 30px 30px 30px 0px;
+}
+
+#logo{
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+}
+
+.container {
+    width: 580px;
+    min-height: 100%;
+    margin: 0px;
+}
+
+#main{
+    width: 500px;
+    min-height: 100%;
+    margin: 20px 20px 0px 20px;
+}
+#cat {
+    width: 250px;
+    height: 200px;
+    padding: 0px 20px 0px 10px;
+    float: none;
+}
 }
